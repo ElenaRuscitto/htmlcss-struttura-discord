@@ -17,7 +17,8 @@ header{
 
 .conteiner-header {
   margin: 0 auto;
-  width: 26%;
+  width: 70%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -55,7 +56,7 @@ nav {
   height: 25px;
 }
 
-.bottom{
+.bottom {
   border: 2px dashed black;
   display: flex;
   align-items: center;
@@ -66,18 +67,26 @@ nav {
 
 
 
-.conteiner{
+.conteiner {
   height: 500px;
   width: 1600px;
   display: flex;
   margin: 0 auto;
 }
 
-.conteiner-footer {
-  height: 80px;
+.conteiner-special {
+  height: 500px;
   width: 1600px;
   display: flex;
   margin: 0 auto;
+  border-bottom: 1px solid white;
+}
+
+.conteiner-footer {
+  height: 88px;
+  width: 1600px;
+  display: flex;
+  margin: 3px auto;
 }
 
 .jumbotron {
@@ -87,7 +96,7 @@ nav {
 .box {
   background-color: palevioletred;
   border: 2px dashed black;
-  width: 100%;
+  width: 80%;
   height: 80%;
   margin: 0 auto;
   display: flex;
@@ -184,6 +193,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-content: space-between;
 }
 
 
@@ -209,4 +219,5 @@ nav {
   text-align: right;
   width: 6%;
   height: 25px;
+  justify-content: flex-end;
 }
