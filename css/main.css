@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-color: rgb(106, 106, 240);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+
+nav{
+  width: 60%;
+}
+
+.logo-img{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  background-color: orange;
+  border: 1px dashed black;
+  width: 20%;
+}
+
+.elenco{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: orange;
+  border: 1px dashed black;
+}
+
+.bottom{
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  background-color: orange;
+  border: 1px dashed black;
+  width: 20%;
+}
