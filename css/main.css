@@ -10,7 +10,7 @@ body {
 }
 
 header{
-  background-color: rgb(106, 106, 240);
+  background-color: rgb(173, 216, 230);
   height: 50px;
   width: 100%;
 }
@@ -91,11 +91,11 @@ nav {
 }
 
 .jumbotron {
-  background-color: blue;
+  background-color: rgb(0, 0, 139)
 }
 
 .box {
-  background-color: palevioletred;
+  background-color: rgb(238, 130, 238);
   border: 2px dashed black;
   width: 80%;
   height: 80%;
@@ -109,16 +109,16 @@ nav {
 
 
 .grigio {
-  background-color: rgb(185, 187, 188);
+  background-color: rgb(211, 211, 211);
 }
 
 .grigio-special {
-  background-color: gray;
+  background-color: rgb(211, 211, 211);
   height: 800px;
 }
 
 .grigio-scuro {
-  background-color: rgb(40, 41, 41);
+  background-color: rgb(35, 39, 42);
   border-bottom: 2px solid white;
 }
 
@@ -128,7 +128,7 @@ nav {
 
 
 .immagine {
-  background-color: rgb(103, 158, 242);
+  background-color: rgb(30, 144, 255);
   border: 2px dashed black;
   width: 60%;
   height: 80%;
@@ -140,7 +140,7 @@ nav {
 }
 
 .testo {
-  background-color: pink;
+  background-color: rgb(255, 192, 203);
   border: 2px dashed black;
   width: 40%;
   height: 80%;
@@ -152,7 +152,7 @@ nav {
 }
 
 .box-special {
-  background-color: green;
+  background-color: rgb(34, 139, 34);
   border: 2px dashed black;
   width: 100%;
   height: 150%;
@@ -176,7 +176,7 @@ nav {
 }
 
 .elenco-footer {
-  background-color: rgb(93, 235, 235);
+  background-color: rgb(32, 178, 170);
   border: 2px dashed black;
   margin: 10px auto;
   width: 20%;
@@ -187,7 +187,7 @@ nav {
 }
 
 .ultimo {
-  background-color: rgb(38, 238, 192);
+  background-color: rgb(127, 255, 212);
   margin: 10px auto;
   width: 100%;
   height: 86%;
@@ -200,7 +200,7 @@ nav {
 
 
 .logo-img-ultimo{
-  background-color: rgb(234, 161, 237);
+  background-color: rgb(240, 128, 128);
   border: 2px dashed black;
   display: flex;
   text-align: left;
