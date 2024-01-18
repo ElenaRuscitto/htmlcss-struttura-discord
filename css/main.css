@@ -12,11 +12,12 @@ body {
 header{
   background-color: rgb(106, 106, 240);
   height: 50px;
+  width: 100%;
 }
 
 .conteiner-header {
   margin: 0 auto;
-  width: 60%;
+  width: 26%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -30,6 +31,7 @@ nav {
   background-color: orange;
   border: 2px dashed black;
   margin-top: 10px;
+  width: 100%;
 }
 
 .logo-img{
@@ -71,6 +73,13 @@ nav {
   margin: 0 auto;
 }
 
+.conteiner-footer {
+  height: 80px;
+  width: 1600px;
+  display: flex;
+  margin: 0 auto;
+}
+
 .jumbotron {
   background-color: blue;
 }
@@ -78,7 +87,7 @@ nav {
 .box {
   background-color: palevioletred;
   border: 2px dashed black;
-  width: 60%;
+  width: 100%;
   height: 80%;
   margin: 0 auto;
   display: flex;
@@ -89,11 +98,6 @@ nav {
 
 
 
-.bianco {
-  background-color: white;
-
-}
-
 .grigio {
   background-color: rgb(185, 187, 188);
 }
@@ -103,17 +107,20 @@ nav {
   height: 800px;
 }
 
-
 .grigio-scuro {
   background-color: rgb(40, 41, 41);
+  border-bottom: 2px solid white;
 }
 
+.grigio-scuro-finale {
+  background-color: rgb(40, 41, 41);
+}
 
 
 .immagine {
   background-color: rgb(103, 158, 242);
   border: 2px dashed black;
-  width: 700px;
+  width: 60%;
   height: 80%;
   margin: 0 auto;
   display: flex;
@@ -125,7 +132,7 @@ nav {
 .testo {
   background-color: pink;
   border: 2px dashed black;
-  width: 500px;
+  width: 40%;
   height: 80%;
   margin: 0 auto;
   display: flex;
@@ -137,13 +144,12 @@ nav {
 .box-special {
   background-color: green;
   border: 2px dashed black;
-  width: 60%;
-  height: 90%;
-  margin: 0 auto;
+  width: 100%;
+  height: 150%;
+  margin: 15px auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: center;
 }
 
 
@@ -152,25 +158,55 @@ nav {
   background-color: rgb(238, 109, 131);
   border: 2px dashed black;
   margin: 10px auto;
-  width: 300px;
-  height: 80%;
+  width: 40%;
+  height: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
-.elenco {
+.elenco-footer {
   background-color: rgb(93, 235, 235);
   border: 2px dashed black;
   margin: 10px auto;
-  width: 200px;
-  height: 80%;
+  width: 20%;
+  height: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.ultimo {
+  background-color: rgb(38, 238, 192);
+  margin: 10px auto;
+  width: 100%;
+  height: 86%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
-  border-bottom: 2px solid white;
 
+.logo-img-ultimo{
+  background-color: rgb(234, 161, 237);
+  border: 2px dashed black;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 6%;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.bottone-ultimo{
+  background-color: rgb(234, 161, 237);
+  border: 2px dashed black;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  width: 6%;
+  height: 25px;
 }
