@@ -14,35 +14,55 @@ header{
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-
 }
 
 nav{
   width: 60%;
 }
 
-.logo-img{
-  display: flex;
-  justify-content: center;
-  text-align: left;
+.logo .elenco .bottom{
   background-color: orange;
-  border: 1px dashed black;
+  border: 2px dashed black;
+  justify-content: center;
+  display: flex;
+}
+
+.logo-img{
+  border: 2px dashed black;
+  display: flex;
+  text-align: left;
   width: 20%;
 }
 
 .elenco{
+  border: 2px dashed black;
   display: flex;
-  justify-content: center;
   text-align: center;
-  background-color: orange;
-  border: 1px dashed black;
 }
 
 .bottom{
+  border: 2px dashed black;
+  display: flex;
+  text-align: right;
+  width: 20%;
+}
+
+
+
+.conteiner-jumbotron {
+  background-color: blue;
+  height: 500px;
+  display: flex;
+}
+
+.box {
+  background-color: palevioletred;
+  border: 2px dashed black;
+  width: 60%;
+  height: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
-  text-align: right;
-  background-color: orange;
-  border: 1px dashed black;
-  width: 20%;
+  align-self: center;
+  align-items: center;
 }
