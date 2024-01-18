@@ -16,8 +16,9 @@ header{
 }
 
 .conteiner-header {
+  width: 1600px;
   margin: 0 auto;
-  width: 70%;
+
   margin: 0 auto;
   display: flex;
   align-items: center;
